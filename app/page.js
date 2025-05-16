@@ -30,7 +30,7 @@ const addTask = () => {
     description: '',
 
   };
-  const uddatedTasks = [...tasks, newTaskobj]; // 使用展開運算符創建新的任務陣列
+  const updatedTasks = [...tasks, newTaskobj]; // 使用展開運算符創建新的任務陣列
 
  
   setTasks(updatedTasks); // 更新任務狀態
